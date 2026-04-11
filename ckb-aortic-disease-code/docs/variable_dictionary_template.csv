@@ -1,0 +1,5 @@
+variable,description,source_dataset,notes
+csid,Participant identifier,baseline/events,Unique participant ID
+study_date,Baseline assessment date,baseline_data,Date of cohort entry
+datedeveloped,Disease occurrence date,events_data,Converted to Date in preprocessing
+diagnosis,ICD-10 diagnosis code,events_data,Full code including decimals when present

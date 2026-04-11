@@ -1,0 +1,7 @@
+source(here::here("code", "01_prepare_events_and_exposures.R"))
+source(here::here("code", "02_define_aortic_outcomes.R"))
+source(here::here("code", "03_merge_total_dataset.R"))
+source(here::here("code", "04_cox_analysis.R"))
+source(here::here("code", "05_multimorbidity_analysis.R"))
+source(here::here("code", "06_paf_analysis.R"))
+source(here::here("code", "07_baseline_characteristics.R"))
