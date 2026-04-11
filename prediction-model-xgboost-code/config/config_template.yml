@@ -1,0 +1,40 @@
+seed: 124
+
+input:
+  data_file: "data-raw/analysis_input.RData"
+  filtered_object_name: "df_filtered"
+  data_object_name: "data1"
+  predictor_pool_name: "M.names1"
+  extra_predictor_pool_name: "X.names1"
+  outcome_names_name: "y.names"
+
+output:
+  results_dir: "results"
+  models_dir: "models"
+
+model:
+  objective: "binary:logistic"
+  eval_metric: "logloss"
+  max_depth: 5
+  eta: 0.1
+  nthread: 2
+  nrounds_screening: 100
+  nrounds_final: 50
+  train_fraction: 0.7
+  top_n_features: 10
+
+variables:
+  outcome_binary: "AN"
+  outcome_time: "AN_ctime"
+  exclude_outcome_from_loop:
+    - "AN_ctime"
+  drop_columns_by_position: [332, 333, 334, 335, 336, 337]
+  remove_predictors:
+    - "thy.y"
+    - "E033"
+  fixed_covariates:
+    - "Hypo"
+    - "Notoxic"
+    - "Thyrotoxicosis"
+    - "Disorder"
+  waterfall_row_id: 10
