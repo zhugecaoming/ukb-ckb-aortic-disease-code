@@ -1,0 +1,51 @@
+# Copy this file to config.yml and edit the values before running.
+
+paths:
+  exposure_input_dir: "data-raw/exposures"
+  outcome_input_dir: "data-raw/outcomes"
+  results_dir: "results"
+  plink_bin: "/path/to/plink"
+  ld_reference_prefix: "/path/to/ld_reference/EUR"
+
+exposure_read_mode: "finngen"   # options: finngen, custom
+outcome_read_mode: "finngen"    # options: finngen, custom
+
+exposure_file_pattern: null
+outcome_file_pattern: null
+
+processing:
+  exposure_start_index: 1
+  exposure_p_threshold: 5.0e-5
+  min_harmonised_snps_for_full_sensitivity: 4
+
+clumping:
+  enabled: true
+
+columns:
+  # exposure columns for finngen-style files
+  exposure:
+    snp_col: "rsids"
+    chr_col: "#chrom"
+    pos_col: "pos"
+    beta_col: "beta"
+    se_col: "sebeta"
+    effect_allele_col: "alt"
+    other_allele_col: "ref"
+    gene_col: "nearest_genes"
+    eaf_col: "af_alt"
+    pval_col: "pval"
+    phenotype_col: "ID"
+
+  # outcome columns for finngen-style files
+  outcome:
+    snp_col: "rsids"
+    chr_col: "#chrom"
+    pos_col: "pos"
+    beta_col: "beta"
+    se_col: "sebeta"
+    effect_allele_col: "alt"
+    other_allele_col: "ref"
+    gene_col: "nearest_genes"
+    eaf_col: "af_alt"
+    pval_col: "pval"
+    phenotype_col: "ID"
