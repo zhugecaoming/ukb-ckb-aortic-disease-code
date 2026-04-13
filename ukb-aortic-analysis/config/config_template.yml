@@ -1,0 +1,81 @@
+seed: 124
+analysis:
+  censor_date: "2023-10-30"
+  death_censor_fallback: "2023-11-01"
+  outcome_icd_code_columns: [2, 260]
+  outcome_date_columns: [261, 519]
+  opcs_code_columns: [2, 127]
+  opcs_date_columns: [128, 253]
+  met_breaks: [600, 3000]
+  disease_exposures:
+    - hyp
+    - pain
+    - cancer
+    - asthma
+    - dyspepsia
+    - CHD
+    - thy
+    - diabetes
+    - depression
+    - PE
+    - prostate
+    - RA
+    - stroke
+    - osteoporosis
+    - COPD
+    - migraine
+    - IBS
+    - glaucoma
+    - DDI
+    - anxiety
+    - AF
+    - IBD
+    - epilepsy
+    - CS
+    - end
+    - PA
+    - MD
+    - bronch
+    - CFS
+    - PVD
+    - sch
+    - PD
+    - CKD
+    - MS
+    - viral
+    - CLD
+    - HF
+    - AP
+    - TC
+    - PO
+    - AB
+    - opsm
+  main_covariates:
+    - sex
+    - age_base
+    - centre
+    - race
+    - edu
+    - smoke
+    - BMI
+    - drink
+    - income
+    - grp_met
+paths:
+  baseline_csv: "path/to/divorce_tongji.csv"
+  education_csv: "path/to/education.csv"
+  outcome_csv: "path/to/outcome.csv"
+  death_cause_csv: "path/to/aortic_cause.csv"
+  death_allcause_csv: "path/to/death_tongji.csv"
+  opcs_csv: "path/to/buchong.csv"
+  opcs_lookup_xlsx: "path/to/OPCS4.xlsx"
+  factor_csv: "path/to/factor.csv"
+  disease_csv: "path/to/disease.csv"
+  medication_csv: "path/to/medication.csv"
+  gene_sex_csv: "path/to/gene_sex.csv"
+  model_input_rdata: "path/to/model_input.RData"
+  custom_forest_xlsx_dir: "path/to/forest_excel_inputs"
+outputs:
+  tables_dir: "results/tables"
+  figures_dir: "results/figures"
+  models_dir: "models"
