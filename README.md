@@ -16,4 +16,4 @@ The repository is intended to support transparency and reproducibility of the ma
 | `ukb-aortic-analysis/` | UKB cohort preprocessing, outcome construction, Cox models, PAF, subgroup and sensitivity analyses, visualization, and the integrated UKB prediction workflow | Main epidemiological analyses in UKB; PAF; sex interaction; competing-risk sensitivity analyses; prediction modeling |
 | `ckb-aortic-disease-code/` | CKB cohort preprocessing and Cox-based external validation analyses | External validation of observational associations in CKB |
 | `mr-gwas-pipeline-code/` | Summary-statistic MR workflow | Genetic support analyses using FinnGen and UKB |
-| `prediction-model-xgboost-code/` | Standalone XGBoost workflow | ｜
+| `prediction-model-xgboost-code/` | Standalone XGBoost workflow | Machine Leaning |
