@@ -88,7 +88,3 @@ Recommended R packages include:
 ```r
 source("run_all.R")
 ```
-
-## Notes
-
-This repository is a cleaned template derived from the original analysis script. Because the raw data and exact in-memory objects were not provided with the script, users should validate variable names and data structures locally before public release or manuscript submission.
