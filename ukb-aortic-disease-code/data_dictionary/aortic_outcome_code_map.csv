@@ -1,0 +1,7 @@
+endpoint_name,script_codes,human_readable_codes,derived_from
+aortic_atherosclerosis,I700,I70.0,I700(1).R
+aortic_dissection,I710,I71.0,I710(1).R
+thoracic_aortic_aneurysm,"I711,I712",I71.1; I71.2,I711(1).R
+abdominal_aortic_aneurysm,"I713,I714",I71.3; I71.4,I713(1).R
+other_aortic_aneurysm,"I715,I716,I718,I719",I71.5; I71.6; I71.8; I71.9,Iqt(1).R
+overall_aortic_disease,"I700,I710-I719,Q253,M314 + death + OPCS4",Combined endpoint in methods and master script,Aortic Disease(1).R / Methods(1).docx

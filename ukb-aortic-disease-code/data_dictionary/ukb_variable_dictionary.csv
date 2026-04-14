@@ -1,0 +1,17 @@
+variable_name,ukb_udi,description,source_notes
+MET,22040,Physical activity quantified as metabolic equivalent of task (MET); computed from low/moderate/vigorous activity fields in code.,Mapped from uploaded spreadsheet and methods.
+centre,54,UK Biobank assessment centre or derived centre grouping used as geographic covariate.,Mapped from uploaded spreadsheet and methods.
+income,738,Annual household income category.,Mapped from uploaded spreadsheet and methods.
+edu,6138,Educational attainment category derived from education fields.,Mapped from uploaded spreadsheet and methods.
+race,21000,Ethnicity/race category used in UKB-adjusted models.,Mapped from uploaded spreadsheet and methods.
+smoke,20116,Smoking status category.,Mapped from uploaded spreadsheet and methods.
+drink,20117,Alcohol drinking status category.,Mapped from uploaded spreadsheet and methods.
+death_data,40000,Death registry date field used in mortality linkage.,Mapped from uploaded spreadsheet and methods.
+death_cause,40001,Underlying cause-of-death field searched for aortic ICD-10 codes.,Mapped from uploaded spreadsheet and methods.
+UKB_I710,41200,OPCS4/procedure source used to derive operative aortic event indicator.,Mapped from uploaded spreadsheet and code.
+AN,41270,Hospital inpatient diagnosis source used to derive aortic disease indicators.,Mapped from uploaded spreadsheet and methods.
+AN_date,41280,Hospital inpatient diagnosis date source used to derive first aortic event date.,Mapped from uploaded spreadsheet and methods.
+age_base,21003,Baseline age in years.,Mapped from uploaded spreadsheet and methods.
+sex,31,Sex at baseline (with genetic sex used in sensitivity analysis).,Mapped from uploaded spreadsheet and methods.
+BMI,21001,Body mass index (kg/m^2).,Mapped from uploaded spreadsheet and methods.
+Outcome,41270/41280,Combined outcome source covering diagnosis and diagnosis-date fields.,Mapped from uploaded spreadsheet and methods.

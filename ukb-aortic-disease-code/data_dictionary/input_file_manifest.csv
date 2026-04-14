@@ -1,0 +1,12 @@
+repository_expected_name,original_local_name,purpose
+ukb_baseline.csv,divorce_tongji.csv,Core UKB baseline dataset used in nearly all scripts.
+ukb_education.csv,education.csv,Education fields merged to derive edu.
+ukb_death_registry.csv,death_tongji.csv,Death dates and cause-of-death codes for subtype derivation.
+ukb_hes_outcomes.csv,outcome.csv,Wide ICD-10 diagnosis and diagnosis-date matrix.
+ukb_opcs_source.csv,buchong.csv,Wide OPCS4/source matrix used for operative aortic procedures.
+ukb_opcs4_codes.xlsx,OPCS4.xlsx,Procedure code lookup workbook.
+ukb_chronic_conditions.csv,disease.csv,Pre-derived 42 chronic conditions with event dates.
+ukb_aortic_cause.csv,aortic_cause.csv,Aortic cause/death support file used in overall endpoint.
+ukb_gene_sex.csv,gene_sex.csv,Genetically inferred sex file used in sensitivity analysis.
+ukb_medication.csv,medication.csv,Medication file referenced in master aortic script.
+ukb_factor.csv,factor.csv,Additional factor/covariate file referenced in master aortic script.

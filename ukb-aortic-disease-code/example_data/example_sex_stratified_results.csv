@@ -1,0 +1,17 @@
+Condition,Gender,HR,Lower,Upper,p_val
+hypertension,Female,4.45,3.8,5.21,<0.01
+hypertension,Male,2.95,2.71,3.22,<0.01
+coronary heart disease,Female,4.07,3.51,4.72,0.03
+coronary heart disease,Male,3.17,2.94,3.41,0.03
+stroke and TIA,Female,2.14,1.76,2.61,<0.01
+stroke and TIA,Male,1.39,1.25,1.54,<0.01
+osteoporosis,Female,1.42,1.16,1.74,0.04
+osteoporosis,Male,0.95,0.73,1.22,0.04
+COPD,Female,2.14,1.75,2.62,0.03
+COPD,Male,1.67,1.5,1.86,0.03
+atrial fibrillation,Female,3.75,3.18,4.42,<0.01
+atrial fibrillation,Male,2.31,2.13,2.51,<0.01
+peripheral vascular disease,Female,4.17,3.33,5.23,<0.01
+peripheral vascular disease,Male,2.09,1.82,2.41,<0.01
+heart failure,Female,3.45,2.79,4.26,<0.01
+heart failure,Male,2.18,1.97,2.42,<0.01
